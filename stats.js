@@ -1,4 +1,4 @@
-var axOnlineWorld = 'Aldous';
+var axOnlineWorld = 'Perkun';
 
 $('<div id="axOnlineList" style="display:none;"></div>').appendTo('body');
 
