@@ -10,7 +10,7 @@ setInterval(function() {
 				walka.text = 'Gracz o nicku' + g.battle.f[x].name + 'Cie bije';
 				walka.lang = 'pl-PL';
 				speechSynthesis.speak(walka);
-        document.title = 'Walka' + g.battle.f[x].name;
+				document.title = 'Walka' + g.battle.f[x].name;
 			}
 		}
 	}
