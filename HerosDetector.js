@@ -1,3 +1,3 @@
 $("#nick").click(() => {
-  message("Hello from GitHub");
+  message("Hello from GitHub!");
 });
