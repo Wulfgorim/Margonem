@@ -1,11 +1,11 @@
 
 /*
-	Autor: Wulfgorim - https://www.margonem.pl/?task=profile&id=3671626
-	Dodatek: AlliesChat
-	Opis: Pozwala na pisanie z sojusznymi klanami za pomoca komendy /s.
+    Autor: Wulfgorim - https://www.margonem.pl/?task=profile&id=3671626
+    Dodatek: AlliesChat
+    Opis: Pozwala na pisanie z sojusznymi klanami za pomoca komendy /s.
     Użycie: 
     1) W clans podmien ID klanow z ktorymi chcesz miec kontakt
-    2) Wejdz na strone https://www.pubnub.com/
+    2) Wejdz na strone https://www.pubnub.com/.
     3) Storz nowy projek, nazwij jak chcesz.
     4) Wygeneruj publishKey i subscribeKey.
     5) Podmien z demo na wygenerowane.
