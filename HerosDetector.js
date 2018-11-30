@@ -1,4 +1,3 @@
-function test() {
-  message("Hi");
-}
-test();
+$("#nick").click(() => {
+  message("Hello from GitHub");
+});
