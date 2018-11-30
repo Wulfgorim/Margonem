@@ -12,7 +12,7 @@
 	Wygląd: https://i.gyazo.com/45a1e71b4cde6bd2a95ff4c363251dcf.mp4
     Informacje: Jest to surowy dodatek, wiec nie ma żadnych zabezpieczeń,
     więc na upratego ktoś może sobie wysyłać wiadomości pod innym nickiem. (O ile wie jak).
-    Ale generalnie sie sprawdza.
+    Ale generalnie sie sprawdza. (Obie strony musza miec dodatek, nie ma zapisywania historii).
 */
 
 $.getScript("https://cdn.pubnub.com/sdk/javascript/pubnub.4.0.11.min.js", (d) => {
