@@ -1,3 +1,9 @@
+/*
+	Autor: Wulfgorim - https://www.margonem.pl/?task=profile&id=3671626
+	Dodatek: HerosDetector
+	Opis: Wykrywacz herosa w stylu Reeportera.
+	Wygląd: https://i.gyazo.com/18ba0e4dc414b89f980d4cdfe839f6b7.png
+*/
 ((_npc, doc) => {
 	g.loadQueue.push({
 		fun: () => {
