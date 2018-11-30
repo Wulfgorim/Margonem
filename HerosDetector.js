@@ -86,7 +86,7 @@
 				let zawolaj = document.getElementById("zawolaj");
 				let zamknij = document.getElementById("close_frame");
 				zawolaj.addEventListener("click", () => {
-					let msg = `/k Zanalazłem herosa! ${npc.nick} na mapie: ${map.name} (${npc.x}, ${npc.y})`;
+					let msg = `/k Zanalazłem herosa! ${npc.nick} na mapie: ${map.name} (${npc.x}, ${npc.y}).`;
 					chatSend(msg);
 				});
 				zamknij.addEventListener("click", () => {
