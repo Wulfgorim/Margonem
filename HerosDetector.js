@@ -1,1 +1,3 @@
-
+function test() {
+  message("Hi");
+}
