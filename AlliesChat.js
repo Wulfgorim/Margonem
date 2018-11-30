@@ -6,7 +6,7 @@
     Użycie: 
     1) W clans podmien ID klanow z ktorymi chcesz miec kontakt
     2) Wejdz na strone https://www.pubnub.com/.
-    3) Storz nowy projek, nazwij jak chcesz.
+    3) Storz nowy projekt, nazwij jak chcesz.
     4) Wygeneruj publishKey i subscribeKey.
     5) Podmien z demo na wygenerowane.
 	Wygląd: https://i.gyazo.com/45a1e71b4cde6bd2a95ff4c363251dcf.mp4
