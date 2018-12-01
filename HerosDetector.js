@@ -1,8 +1,8 @@
 ((_npc, doc) => {
-    g.loadQueue.push({
-        fun: () => {
-            let s = doc.createElement('style'),
-                style = `
+	g.loadQueue.push({
+		fun: () => {
+			let s = doc.createElement('style'),
+				style = `
 					#mainFrame {
 					  position: absolute;
 					  z-index: 999;
@@ -56,11 +56,11 @@
 					  margin: 3px;
 					}
                 `;
-            s.type = 'text/css';
-            s.appendChild(document.createTextNode(style));
-            document.head.appendChild(s);
-            drawPanel = function(npc) {
-                let alert = `
+			s.type = 'text/css';
+			s.appendChild(document.createTextNode(style));
+			document.head.appendChild(s);
+			drawPanel = function(npc) {
+				let alert = `
 					<div id="mainFrame">
 					  <div id="alert_header">
 						<div id="heros_name">${npc.nick}</div>
@@ -76,24 +76,23 @@
 					  </div>
 					</div>
 				`;
-                let appendToCenterbox = $(alert).appendTo('#centerbox2');
-                let zawolaj = document.getElementById("zawolaj");
-                let zamknij = document.getElementById("close_frame");
-                zawolaj.addEventListener("click", () => {
-                    let msg = `/k Zanalazłem herosa! ${npc.nick} na mapie: ${map.name} (${npc.x}, ${npc.y}).`;
-                    chatSend(msg);
-                });
-                zamknij.addEventListener("click", () => {
-                    $("#mainFrame").remove();
-                });
-            }
-            newNpc = function(e) {
-                for (var x in e) {
-                    if (e[x].wt > 79)
-                        drawPanel(e[x]);
-                }
-                _npc.call(this, e);
-            }
-        }
-    })
+				let appendToCenterbox = $(alert).appendTo('#centerbox2');
+				let zawolaj = document.getElementById("zawolaj");
+				let zamknij = document.getElementById("close_frame");
+				zawolaj.addEventListener("click", () => {
+					let msg = `/k Zanalazłem herosa! ${npc.nick} na mapie: ${map.name} (${npc.x}, ${npc.y}).`;
+					chatSend(msg);
+				});
+				zamknij.addEventListener("click", () => {
+					$("#mainFrame").remove();
+				});
+			}
+			newNpc = function(e) {
+				for (var x in e) {
+					if (e[x].wt > 79) drawPanel(e[x]);
+				}
+				_npc.call(this, e);
+			}
+		}
+	})
 })(newNpc, document);
