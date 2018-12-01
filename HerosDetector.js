@@ -1,6 +1,6 @@
 /*
   Autor: Wulfgorim,
-  Dodatek: Quick Group z Filtrem.
+  Dodatek: Heros Detector
 */
 ((_npc, doc) => {
 	g.loadQueue.push({
