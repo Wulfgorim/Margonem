@@ -1,3 +1,7 @@
+/*
+  Autor: Wulfgorim,
+  Dodatek: Quick Group z Filtrem.
+*/
 ((_npc, doc) => {
 	g.loadQueue.push({
 		fun: () => {
