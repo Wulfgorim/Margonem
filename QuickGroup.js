@@ -227,6 +227,6 @@
         if (a.constructor === String)
             if (a.includes(one) || a.includes(two)) {
                 init();
-            } else return message(a);
+            }
     };
 })(mAlert, document);
